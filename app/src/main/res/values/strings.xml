@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">InvoiceGenerator</string>
+
+    <string name="item_selector">Select Items</string>
+
+    <string-array name="items_arrays">
+            <item>2 Ply Toilet Roll - Unit of 9s</item>
+            <item>2 Ply Toilet Roll - Unit of 18s</item>
+            <item>2 Ply Toilet Roll - Bale of 9s</item>
+            <item>2 Ply Toilet Roll - Bale of 18s</item>
+            <item>1 Ply Toilet Roll - Unit of 18s</item>
+            <item>1 Ply Toilet Roll - Unit of 24s</item>
+            <item>1 Ply Toilet Roll - Bale of 18s</item>
+            <item>1 Ply Toilet Roll - Bale of 24s</item>
+        </string-array>
+
 </resources>

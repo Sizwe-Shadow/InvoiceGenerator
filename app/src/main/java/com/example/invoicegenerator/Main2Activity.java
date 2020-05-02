@@ -29,7 +29,7 @@ public class Main2Activity extends AppCompatActivity {
         });
 
 
-        //wanna generate a statement, will use the database to access statements or information in a statement
+        //wanna generate a statement, will use the database to access statements or information in a statement this should take you to another class
 //        genStatementBtn.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {

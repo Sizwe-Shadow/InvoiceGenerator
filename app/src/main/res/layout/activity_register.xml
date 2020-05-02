@@ -3,39 +3,39 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".makePDF">
+    android:orientation="vertical"
+    tools:context=".newCustomer">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="66dp"
+        android:layout_height="90dp"
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/customerTextview"
-            android:layout_width="wrap_content"
+            android:id="@+id/UnameTextview"
+            android:layout_width="159dp"
             android:layout_height="match_parent"
-            android:text="Customer:"
+            android:gravity="center"
+            android:text="Username:"
+            android:textAlignment="center"
             android:textColor="#000"
             android:textSize="25dp"
-            android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.054"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.179"
-            android:gravity="center">
+            app:layout_constraintVertical_bias="0.179">
 
         </TextView>
 
         <EditText
-            android:id="@+id/customerEditText"
-            android:layout_width="306dp"
+            android:id="@+id/UnameEditText"
+            android:layout_width="257dp"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:hint="Enter Name:"
+            android:hint="Enter name"
             android:inputType="textPersonName"
             android:textColor="#000"
             android:textSize="25dp"
@@ -51,13 +51,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="90dp"
         android:orientation="horizontal">
         <TextView
-            android:id="@+id/addressTextview"
-            android:layout_width="wrap_content"
+            android:id="@+id/surnameTextView"
+            android:layout_width="159dp"
             android:layout_height="match_parent"
-            android:text="Address:"
+            android:text="Surname:"
             android:gravity="center"
             android:textColor="#000"
             android:textSize="25dp"
@@ -71,13 +71,12 @@
         </TextView>
 
         <EditText
-            android:id="@+id/addressEditText"
-            android:layout_width="306dp"
+            android:id="@+id/surnameEditText"
+            android:layout_width="257dp"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:hint="Enter Address"
+            android:hint="Enter surname"
             android:inputType="textPersonName"
-            android:singleLine="false"
             android:textColor="#000"
             android:textSize="25dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -93,15 +92,15 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="90dp"
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/prodTextview"
-            android:layout_width="wrap_content"
+            android:id="@+id/passwordTextview"
+            android:layout_width="159dp"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Product:"
+            android:text="Password:"
             android:textColor="#000"
             android:textSize="25dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -114,12 +113,12 @@
         </TextView>
 
         <EditText
-            android:id="@+id/prodEditText"
-            android:layout_width="306dp"
+            android:id="@+id/passwordEditText"
+            android:layout_width="257dp"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:hint="Enter Product"
-            android:inputType="text"
+            android:hint="Enter password"
+            android:inputType="numberPassword"
             android:textColor="#000"
             android:textSize="25dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -134,13 +133,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="90dp"
         android:orientation="horizontal">
         <TextView
-            android:id="@+id/quantityTextview"
-            android:layout_width="wrap_content"
+            android:id="@+id/emailTextview"
+            android:layout_width="159dp"
             android:layout_height="match_parent"
-            android:text="Quantity:"
+            android:text="Email:"
             android:textColor="#000"
             android:gravity="center"
             android:textSize="25dp"
@@ -154,50 +153,11 @@
         </TextView>
 
         <EditText
-            android:id="@+id/quantityEditText"
-            android:layout_width="306dp"
-            android:layout_height="wrap_content"
-            android:hint="Enter Product Quantity"
-            android:inputType="number"
-            android:textColor="#000"
-            android:textSize="25dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.928"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.593">
-
-        </EditText>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:id="@+id/priceTextview"
-            android:layout_width="wrap_content"
+            android:id="@+id/emailEditText"
+            android:layout_width="257dp"
             android:layout_height="match_parent"
-            android:text="Product Price:"
-            android:textColor="#000"
-            android:gravity="center"
-            android:textSize="25dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.067"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.479">
-
-        </TextView>
-
-        <EditText
-            android:id="@+id/priceEditText"
-            android:layout_width="306dp"
-            android:layout_height="wrap_content"
-            android:hint="Enter Product Price"
-            android:inputType="number"
+            android:hint="Enter email address"
+            android:inputType="textEmailAddress"
             android:textColor="#000"
             android:textSize="25dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -208,57 +168,19 @@
             app:layout_constraintVertical_bias="0.593">
 
         </EditText>
-
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:id="@+id/discountTextview"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Discount:"
-            android:textColor="#000"
-            android:gravity="center"
-            android:textSize="25dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.067"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.479">
-
-        </TextView>
-
-        <EditText
-            android:id="@+id/discountEditText"
-            android:layout_width="306dp"
-            android:layout_height="wrap_content"
-            android:hint="Agreed Discount"
-            android:inputType="number"
-            android:textColor="#000"
-            android:textSize="25dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.928"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.593">
-
-        </EditText>
-
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/genInvoiceBtn"
-        android:layout_width="match_parent"
-        android:layout_height="86dp"
+        android:id="@+id/createCustBtn"
+        android:layout_width="235dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="50dp"
         android:background="@drawable/rounded_corners"
-        android:text="Generate Invoice"
-        android:textAllCaps="false"
+        android:text="Register"
+        android:textAllCaps="true"
         android:textColor="#fff"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -266,9 +188,6 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888"
-        android:layout_marginTop="70dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"/>
+        app:layout_constraintVertical_bias="0.888" />
 
 </LinearLayout>

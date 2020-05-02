@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".newCustomer">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/customerTextview"
+        android:layout_width="135dp"
+        android:layout_height="match_parent"
+        android:text="Customer:"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179"
+        android:gravity="center">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/customerEditText"
+        android:layout_width="306dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:hint="Enter name:"
+        android:inputType="textPersonName"
+        android:textColor="#000"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593">
+
+    </EditText>
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="80dp"
+android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/addressTextview"
+        android:layout_width="135dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Address:"
+        android:textColor="#000"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.276">
+
+    </TextView>
+
+<EditText
+    android:id="@+id/addressEditText"
+    android:layout_width="306dp"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:hint="Enter customer address"
+    android:inputType="textPostalAddress"
+    android:textColor="#000"
+    android:textSize="25dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.928"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.593">
+
+</EditText>
+</LinearLayout>
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="90dp"
+android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/telNoTextview"
+        android:layout_width="135dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Telephone:"
+        android:textColor="#000"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.381">
+
+    </TextView>
+
+<EditText
+    android:id="@+id/telNoEditText"
+    android:layout_width="306dp"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:hint="Enter Tel. no"
+    android:inputType="text"
+    android:textColor="#000"
+    android:textSize="25dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.928"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.593">
+
+</EditText>
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="80dp"
+android:orientation="horizontal">
+<TextView
+    android:id="@+id/emailTextview"
+    android:layout_width="135dp"
+    android:layout_height="match_parent"
+    android:text="Email:"
+    android:textColor="#000"
+    android:gravity="center"
+    android:textSize="25dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.067"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.479">
+
+</TextView>
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="306dp"
+        android:layout_height="match_parent"
+        android:hint="Enter email address"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593">
+
+    </EditText>
+
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="80dp"
+android:orientation="horizontal">
+
+<TextView
+    android:id="@+id/personTelTextview"
+    android:layout_width="135dp"
+    android:layout_height="match_parent"
+    android:text="Contact Person: "
+    android:textColor="#000"
+    android:gravity="center"
+    android:textSize="25dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.067"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.479">
+
+</TextView>
+
+<EditText
+    android:id="@+id/personTelEditText"
+    android:layout_width="306dp"
+    android:layout_height="match_parent"
+    android:hint="Enter name"
+    android:inputType="number"
+    android:textColor="#000"
+    android:textSize="25dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.928"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.593">
+
+</EditText>
+
+
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="80dp"
+android:orientation="horizontal">
+<TextView
+    android:id="@+id/contactTextview"
+    android:layout_width="135dp"
+    android:layout_height="match_parent"
+    android:text="Contacts:"
+    android:textColor="#000"
+    android:gravity="center"
+    android:textSize="25dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.067"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.479">
+
+</TextView>
+
+<EditText
+    android:id="@+id/contactEditText"
+    android:layout_width="306dp"
+    android:layout_height="match_parent"
+    android:hint="Enter contacts"
+    android:inputType="number"
+    android:textColor="#000"
+    android:textSize="25dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.928"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.593">
+
+</EditText>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/vatNumTextview"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:text="VAT Number:"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.067"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.479">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/vatNumEditText"
+            android:layout_width="306dp"
+            android:layout_height="match_parent"
+            android:hint="Enter VAT number"
+            android:inputType="number"
+            android:textColor="#000"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.928"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.593">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/createCustBtn"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Create Customer"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+
+</LinearLayout>

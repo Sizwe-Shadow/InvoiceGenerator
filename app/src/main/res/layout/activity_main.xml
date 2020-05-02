@@ -24,7 +24,7 @@
     </ImageView>
 
     <Button
-        android:id="@+id/loginbtn"
+        android:id="@+id/tologinbtn"
         android:layout_width="169dp"
         android:layout_height="77dp"
         android:layout_marginStart="121dp"
@@ -59,6 +59,7 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/forgotPass"
         android:layout_width="142dp"
         android:layout_height="27dp"
         android:layout_marginTop="553dp"
